@@ -1,5 +1,5 @@
 CHOUAKRI_3_STATES_QRLE_JPEG_MAIN.m is application of CHOUAKRI_3_STATES_QRLE function to a classical JPEG RGB image compression algorithm.  In this code, DCT-AC coefficients Huffman coding is replaced by CHOUAKRI_3_STATES_QRLE function.   
-CHOUAKRI_3_STATES_QRLE function is based on a so-called QRLE (Quantized Run Length Encoding) -see https://ieeexplore.ieee.org/abstract/document/8855775- 
+CHOUAKRI_3_STATES_QRLE function is based on a so-called QRLE (Quantized Run Length Encoding) -see https://ieeexplore.ieee.org/abstract/document/8855775   - 
 The basic idea is to treat the zero run numbers of the AC zig-zag coefficients, according  to 3 pre-defined ranges as follows where it comes the expression 3 States QRLE: [1..127], [128..255], and [256..maximum. 
 For more information see: -https://www.researchgate.net/publication/366802356_Three_States_QRLE_Quantized_Run_Length_Encoding_Based_JPEG_Image_Compression_Method -
  
